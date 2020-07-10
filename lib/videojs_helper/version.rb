@@ -1,3 +1,3 @@
 module VideojsHelper
-  VERSION = '7.8.1'
+  VERSION = '1.0.0'.freeze
 end
