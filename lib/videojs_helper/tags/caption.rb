@@ -1,4 +1,4 @@
-module VideojsRails
+module VideojsHelper
   module Tags
     class Caption < Tag
       def initialize(lang, default_language, options)

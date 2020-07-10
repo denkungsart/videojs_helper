@@ -1,4 +1,4 @@
-module VideojsRails
+module VideojsHelper
   module Tags
     class Source < Tag
       def initialize(video_type, options)

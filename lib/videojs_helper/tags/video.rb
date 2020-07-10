@@ -1,4 +1,4 @@
-module VideojsRails
+module VideojsHelper
   module Tags
     class Video < Tag
       DEFAULT_LANGUAGE_KEY = :default_caption_language

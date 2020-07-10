@@ -1,4 +1,4 @@
-module VideojsRails
+module VideojsHelper
   module Tags
     class Tag
       include ActionView::Helpers::TagHelper

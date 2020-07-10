@@ -1,17 +1,13 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "videojs_rails/version"
+require "videojs_helper/version"
 
 Gem::Specification.new do |s|
-  s.name        = "videojs_rails"
-  s.version     = VideojsRails::VERSION
+  s.name        = "videojs_helper"
+  s.version     = VideojsHelper::VERSION
   s.authors     = ["Sean Behan"]
   s.email       = ["bseanvt@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{VideoJS plugin for Rails 3.1 Asset Pipeline}
-  s.description = %q{HTML5 VideoJS plugin}
-
-  s.rubyforge_project = "videojs_rails"
+  s.summary     = %q{Rails helpers for VideoJS plugin}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
