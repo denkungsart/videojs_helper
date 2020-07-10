@@ -12,8 +12,8 @@ module VideojsHelper
         prepare_options(options)
       end
 
-      def to_html
-        content_tag(:video, options) do
+      def to_html(type = :video)
+        content_tag(type, options) do
           sources.each {|type, options| concat Source.new(type, options).to_html }
           captions.each {|lang, options| concat Caption.new(lang, default_caption_language, options).to_html }
           generate_no_js
