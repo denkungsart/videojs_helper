@@ -5,7 +5,7 @@
 Add to your Gemfile
 
 ```ruby
-gem 'videojs_helpers'
+gem 'videojs_helper'
 ```
 
 And run bundle to install the library.
@@ -37,5 +37,5 @@ This is currently an experimental function.
 ```
 
 ## Resources
-http://videojs.com/
-http://videojs.com/#getting-started
+* http://videojs.com/
+* http://videojs.com/#getting-started
